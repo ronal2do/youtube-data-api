@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.6
+3 info using node@v6.1.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/2dlima/Documents/BOILERPLATES/boilerplate-facebook/youtube-data-api',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/2dlima/.npm/youtube-data-api/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/2dlima/.npm correctMkdir not in flight; initializing
+10 info lifecycle youtube-data-api@1.0.0~prepublish: youtube-data-api@1.0.0
+11 silly lifecycle youtube-data-api@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/2dlima/.npm/youtube-data-api/1.0.0/package.tgz',
+12 verbose tar pack   '/Users/2dlima/Documents/BOILERPLATES/boilerplate-facebook/youtube-data-api' ]
+13 verbose tarball /Users/2dlima/.npm/youtube-data-api/1.0.0/package.tgz
+14 verbose folder /Users/2dlima/Documents/BOILERPLATES/boilerplate-facebook/youtube-data-api
+15 verbose addLocalTarball adding from inside cache /Users/2dlima/.npm/youtube-data-api/1.0.0/package.tgz
+16 verbose correctMkdir /Users/2dlima/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd youtube-data-api@1.0.0
+18 verbose afterAdd /Users/2dlima/.npm/youtube-data-api/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/2dlima/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/2dlima/.npm/youtube-data-api/1.0.0/package/package.json written
+21 silly publish { name: 'youtube-data-api',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'Youtube channel data api',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   dependencies: { axios: '^0.7.0' },
+21 silly publish   repository: { type: 'git', url: 'github.com/ronal2do/youtube-data-api' },
+21 silly publish   keywords: [ 'youtube', 'data', 'api', 'channel' ],
+21 silly publish   author: { name: 'Ronal2do@gmail.com' },
+21 silly publish   license: 'ISC',
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   _id: 'youtube-data-api@1.0.0',
+21 silly publish   _shasum: 'a8a45e6fd12fcff8aea842ca46491a8bd4db56f5',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name youtube-data-api
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'youtube-data-api',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'youtube-data-api',
+26 silly mapToRegistry   name: 'youtube-data-api',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/youtube-data-api
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/2dlima/.npm/youtube-data-api/1.0.0/package.tgz
+30 verbose stack Error: auth required for publishing
+30 verbose stack     at CachingRegistryClient.publish (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+30 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:138:14
+30 verbose stack     at mapToRegistry (/usr/local/lib/node_modules/npm/lib/utils/map-to-registry.js:62:3)
+30 verbose stack     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:107:3)
+30 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+30 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+30 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+30 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+30 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:73:5
+30 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+31 verbose cwd /Users/2dlima/Documents/BOILERPLATES/boilerplate-facebook/youtube-data-api
+32 error Darwin 15.6.0
+33 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+34 error node v6.1.0
+35 error npm  v3.10.6
+36 error code ENEEDAUTH
+37 error need auth auth required for publishing
+38 error need auth You need to authorize this machine using `npm adduser`
+39 verbose exit [ 1, true ]

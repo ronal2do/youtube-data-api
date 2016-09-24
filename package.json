@@ -1,0 +1,24 @@
+{
+  "name": "youtube-data-api",
+  "version": "1.0.0",
+  "description": "Youtube channel data api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ronal2do/youtube-data-api"
+  },
+  "keywords": [
+    "youtube",
+    "data",
+    "api",
+    "channel"
+  ],
+  "author": "Ronal2do@gmail.com",
+  "license": "ISC"
+}
